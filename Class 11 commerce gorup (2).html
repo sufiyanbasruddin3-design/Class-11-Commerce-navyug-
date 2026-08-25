@@ -1,0 +1,146 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><h1>Class 11 Commerce – Navyug</h1>
+
+<button onclick="showAnnouncement()">Announcements</button>
+<p id="announcement"></p>
+
+<button onclick="showHomework()">Homework</button>
+<p id="homework"></p>
+
+<button onclick="showTimetable()">Timetable</button>
+<p id="timetable"></p>
+<button onclick="showStudy()">Study Material</button>
+<p id="study"></p>
+<a href="https://www.google.com" target="_blank">
+    📘 Accountancy Notes
+</a>
+
+<br>
+
+<a href="https://www.google.com" target="_blank">
+    📗 Business Studies Notes
+</a>
+
+<br>
+
+<a href="https://www.google.com" target="_blank">
+    📙 Economics Notes
+</a>
+
+<br>
+
+<a href="https://www.google.com" target="_blank">
+    📕 Maths Notes
+</a>    Open Study Material
+</a>
+<a href="https://www.google.com" target="_blank">
+    Open Study Material
+</a>
+<h2>About Our Class</h2>
+
+<p>
+    Welcome to Class 11 Commerce – Navyug.
+    Yahan hum class ke important updates,
+    homework, timetable aur study material share karenge.
+</p><script>
+function showAnnouncement() {
+    let box = document.getElementById("announcement");
+
+    if (box.style.display === "none") {
+        box.style.display = "block";
+        box.innerText = "Kal school mein chhutti hai.";
+    } else {
+        box.style.display = "none";
+    }
+}
+
+function showHomework() {
+    let box = document.getElementById("homework");
+
+    if (box.style.display === "none") {
+        box.style.display = "block";
+        box.innerText = "Accountancy: Journal ke 5 questions complete karo.";
+    } else {
+        box.style.display = "none";
+    }
+}
+
+function showTimetable() {
+    let box = document.getElementById("timetable");
+
+    if (box.style.display === "none") {
+        box.style.display = "block";
+        box.innerText = "Monday: Accounts | Tuesday: Maths | Wednesday: Economics";
+    } else {
+        box.style.display = "none";
+    }
+}
+function showStudy() {
+    let box = document.getElementById("study");
+
+    if (box.style.display === "none") {
+        box.style.display = "block";
+        box.innerText = "📚 Accountancy | Business Studies | Economics | Maths";
+    } else {
+        box.style.display = "none";
+    }
+}
+</script><style>body{
+  background : lightblue ! important ;}
+  h1 {
+    color: red;
+    text-align: center;
+}
+
+button {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+button{
+    display : block;
+    margin : 10px auto;
+  }
+  button {
+    width: 200px;
+    display: block;
+    margin: 12px auto;
+    font-size: 16px;
+    cursor: pointer;
+}
+p {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1 {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 3px 10px #ccc;
+}
+a {
+    display: block;
+    background: white;
+    width: 250px;
+    margin: 10px auto;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #ccc;
+}
+h2 {
+    background: white;
+    padding: 15px;
+    max-width: 400px;
+    margin: 20px auto 5px;
+    border-radius: 10px;
+    text-align: center;
+}</style>
